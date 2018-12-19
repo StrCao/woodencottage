@@ -10,6 +10,7 @@
 </head>
 <body>
     <div id="app">
+        {{ message }}
         <el-button @click="onSubmit" type="primary">
             发送请求
         </el-button>
@@ -26,6 +27,7 @@
             methods: {
                 onSubmit(){
                     this.get();
+                    this.message = '你点击鼠标了';
                 },
                 get: function () {
                     axios.get("/vue")

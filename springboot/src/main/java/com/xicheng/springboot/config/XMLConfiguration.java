@@ -1,18 +1,28 @@
 package com.xicheng.springboot.config;
 
-import lombok.Getter;
-import lombok.Setter;
-
 /**
  * @author xichengxml
  * @date 2018/12/19
  * @description
  */
 public class XMLConfiguration {
-    @Getter
-    @Setter
     private String globalVal;
-    @Getter
-    @Setter
     private String localVal;
+
+    public String getLocalVal() {
+        return localVal;
+    }
+
+    public void setLocalVal(String localVal) {
+        this.localVal = localVal;
+    }
+
+    public String getGlobalVal() {
+
+        return globalVal;
+    }
+
+    public void setGlobalVal(String globalVal) {
+        this.globalVal = globalVal;
+    }
 }
