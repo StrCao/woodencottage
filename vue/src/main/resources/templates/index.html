@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/js/vue.js" type="text/javascript"></script>
+    <script src="/js/element.js" type="text/javascript"></script>
+    <script src="/js/axios.min.js" type="text/javascript"></script>
+    <link  href="/js/element.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div id="app">
+        <el-button @click="onSubmit" type="primary">
+            发送请求
+        </el-button>
+    </div>
+
+    <!-- 华丽丽的分界线 -->
+
+    <script type="text/javascript">
+        var app = new Vue({
+            el: "#app",
+            data: {
+                message: 'default msg'
+            },
+            methods: {
+                onSubmit(){
+                    this.get();
+                },
+                get: function () {
+                    axios.get("/vue")
+                        .then(function (response) {
+                            alert("success--" + response);
+                        })
+                        .catch(function (error) {
+                            alert("error--" + error);
+                        })
+                }
+            }
+        })
+    </script>
+
+    <!-- 华丽丽的分界线 -->
+    <style type="text/css">
+
+    </style>
+</body>
+</html>
