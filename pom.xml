@@ -22,6 +22,7 @@
 		<module>vue</module>
 		<module>algorithm</module>
 		<module>concurrent</module>
+		<module>database</module>
 	</modules>
 	<properties>
 		<java.version>1.8</java.version>
