@@ -1,10 +1,14 @@
 package com.xicheng.algorithm.sorting;
 
+import java.util.Arrays;
+
 /**
  *
  */
 public class Common {
 
+    public static final Comparable<Integer>[] ARR = new Comparable[]{1, 3, 5, 6, 4, 2};
+    public static final int LEN = ARR.length;
     /**
      * 实际排序算法
      * @param arr
@@ -39,9 +43,7 @@ public class Common {
      * @param arr
      */
     public static void show(Comparable[] arr) {
-        for (int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i]);
-        }
+        Arrays.stream(arr).forEach(System.out::println);
     }
 
     /**
