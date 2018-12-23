@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="96.0" y="81.0">com.xicheng.designpattern.factory.common.Benz</node>
+    <node x="86.63333333333333" y="162.0">com.xicheng.designpattern.factory.withoutfactory.Client01</node>
+    <node x="0.0" y="81.0">com.xicheng.designpattern.factory.common.Audi</node>
+    <node x="100.0" y="0.0">com.xicheng.designpattern.factory.common.Car</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.xicheng.designpattern.factory.withoutfactory.Client01" target="com.xicheng.designpattern.factory.common.Audi">
+      <point x="-32.0" y="-15.5" />
+      <point x="102.63333333333333" y="137.0" />
+      <point x="38.0" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.xicheng.designpattern.factory.withoutfactory.Client01" target="com.xicheng.designpattern.factory.common.Car">
+      <point x="32.0" y="-15.5" />
+      <point x="166.63333333333333" y="137.0" />
+      <point x="184.5" y="137.0" />
+      <point x="184.5" y="56.0" />
+      <point x="158.33333333333331" y="56.0" />
+      <point x="23.333333333333314" y="15.5" />
+    </edge>
+    <edge source="com.xicheng.designpattern.factory.common.Benz" target="com.xicheng.designpattern.factory.common.Car">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.xicheng.designpattern.factory.common.Audi" target="com.xicheng.designpattern.factory.common.Car">
+      <point x="0.0" y="-15.5" />
+      <point x="38.0" y="56.0" />
+      <point x="111.66666666666667" y="56.0" />
+      <point x="-23.33333333333333" y="15.5" />
+    </edge>
+    <edge source="com.xicheng.designpattern.factory.withoutfactory.Client01" target="com.xicheng.designpattern.factory.common.Benz">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

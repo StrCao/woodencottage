@@ -1,7 +1,5 @@
 package com.xicheng.database;
 
-import redis.clients.jedis.Jedis;
-
 /**
  * @author xichengxml
  * @date 2018/12/20

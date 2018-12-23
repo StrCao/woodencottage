@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="126.38541666666666" y="243.0">com.xicheng.designpattern.factory.simplefactory02.Client03</node>
+    <node x="96.0" y="81.0">com.xicheng.designpattern.factory.common.Benz</node>
+    <node x="0.0" y="81.0">com.xicheng.designpattern.factory.common.Audi</node>
+    <node x="128.67708333333331" y="0.0">com.xicheng.designpattern.factory.common.Car</node>
+    <node x="51.520833333333314" y="162.0">com.xicheng.designpattern.factory.simplefactory02.SimpleFactory02</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.xicheng.designpattern.factory.simplefactory02.SimpleFactory02" target="com.xicheng.designpattern.factory.common.Car">
+      <point x="48.33333333333334" y="-15.5" />
+      <point x="172.35416666666666" y="137.0" />
+      <point x="193.63541666666666" y="137.0" />
+      <point x="193.63541666666666" y="61.0" />
+      <point x="172.42708333333331" y="61.0" />
+      <point x="8.75" y="15.5" />
+    </edge>
+    <edge source="com.xicheng.designpattern.factory.simplefactory02.Client03" target="com.xicheng.designpattern.factory.common.Car">
+      <point x="24.0" y="-15.5" />
+      <point x="198.38541666666666" y="218.0" />
+      <point x="211.26041666666666" y="218.0" />
+      <point x="211.26041666666666" y="51.0" />
+      <point x="189.92708333333331" y="51.0" />
+      <point x="26.250000000000004" y="15.5" />
+    </edge>
+    <edge source="com.xicheng.designpattern.factory.simplefactory02.SimpleFactory02" target="com.xicheng.designpattern.factory.common.Benz">
+      <point x="0.0" y="-15.5" />
+      <point x="124.02083333333331" y="137.0" />
+      <point x="135.0" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.xicheng.designpattern.factory.common.Benz" target="com.xicheng.designpattern.factory.common.Car">
+      <point x="0.0" y="-15.5" />
+      <point x="135.0" y="61.0" />
+      <point x="154.92708333333331" y="61.0" />
+      <point x="-8.75" y="15.5" />
+    </edge>
+    <edge source="com.xicheng.designpattern.factory.simplefactory02.SimpleFactory02" target="com.xicheng.designpattern.factory.common.Audi">
+      <point x="-48.33333333333334" y="-15.5" />
+      <point x="75.68749999999997" y="137.0" />
+      <point x="38.0" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.xicheng.designpattern.factory.simplefactory02.Client03" target="com.xicheng.designpattern.factory.simplefactory02.SimpleFactory02">
+      <point x="-24.0" y="-15.5" />
+      <point x="150.38541666666666" y="218.0" />
+      <point x="124.02083333333331" y="218.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.xicheng.designpattern.factory.common.Audi" target="com.xicheng.designpattern.factory.common.Car">
+      <point x="0.0" y="-15.5" />
+      <point x="38.0" y="51.0" />
+      <point x="137.42708333333331" y="51.0" />
+      <point x="-26.25" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

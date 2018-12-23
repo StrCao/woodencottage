@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.xicheng</groupId>
-		<artifactId>woodencottage</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+        <artifactId>woodencottage</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>database</artifactId>
-	<name>database</name>
+	<artifactId>designpattern</artifactId>
+	<name>designpattern</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -16,7 +16,6 @@
 	</properties>
 
 	<dependencies>
-
 	</dependencies>
 
 	<build>
