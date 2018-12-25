@@ -17,7 +17,6 @@
 
 	<modules>
 		<module>datastructure</module>
-		<module>creeper</module>
 		<module>springboot</module>
 		<module>newfeature</module>
 		<module>vue</module>
@@ -26,6 +25,7 @@
 		<module>database</module>
 		<module>designpattern</module>
 		<module>javase</module>
+		<module>stream</module>
 	</modules>
 	<properties>
 		<java.version>1.8</java.version>

@@ -1,13 +1,13 @@
-package com.xicheng.woodencottage.creeper;
+package com.xicheng.stream;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CreeperApplication {
+public class StreamApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CreeperApplication.class, args);
+		SpringApplication.run(StreamApplication.class, args);
 	}
 
 }
