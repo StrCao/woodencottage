@@ -1,4 +1,4 @@
-package com.xicheng.algorithm.leetcode;
+package com.xicheng.algorithm.leetcode.plusone;
 
 import java.util.Arrays;
 
