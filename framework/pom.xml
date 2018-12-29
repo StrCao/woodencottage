@@ -8,15 +8,25 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<groupId>com.xicheng</groupId>
-	<artifactId>algorithm</artifactId>
+	<artifactId>framework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>algorithm</name>
+	<name>framework</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
-
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.mybatis.spring.boot</groupId>
+			<artifactId>mybatis-spring-boot-starter</artifactId>
+			<version>1.3.1</version>
+		</dependency>
+	</dependencies>
 
 	<build>
 		<plugins>
