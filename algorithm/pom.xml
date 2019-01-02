@@ -7,7 +7,6 @@
 		<artifactId>woodencottage</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<groupId>com.xicheng</groupId>
 	<artifactId>algorithm</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>algorithm</name>
