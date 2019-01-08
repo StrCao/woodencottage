@@ -4,9 +4,7 @@ import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.collections4.MapUtils;
 import org.apache.commons.lang3.ArrayUtils;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
+import java.io.*;
 import java.util.*;
 
 /**
@@ -24,11 +22,11 @@ import java.util.*;
  * "what":   {(0, 2), (1, 0)}
  */
 public class InvertedIndex {
+    private static Map<String, List<Map<String, Integer>>> indexMap = new HashMap<>();
 
     public static void main(String[] args) {
-        Map<String, List<Map<String, Integer>>> indexMap = new HashMap<>();
         for (int i = 1; i < 4; i++) {
-            String filePath = "D:\\user\\github\\woodencottage\\datastructure\\src\\main\\resources\\index\\" + i + ".txt";
+            String filePath = "/index/" + i + ".txt";
             indexMap = createIndex(filePath);
         }
 
@@ -41,15 +39,15 @@ public class InvertedIndex {
     }
 
     private static Map<String, List<Map<String, Integer>>> createIndex(String filePath) {
-        File file = new File(filePath);
-        Map<String, List<Map<String, Integer>>> indexMap = new HashMap<>();
         BufferedReader bufferedReader = null;
         try {
-            bufferedReader = new BufferedReader(new FileReader(file));
+            InputStream resourceAsStream = InvertedIndex.class.getResourceAsStream(filePath);
+            bufferedReader = new BufferedReader(new InputStreamReader(resourceAsStream));
             String line = bufferedReader.readLine();
             String[] words = null;
             while (line != null) {
                 words = line.split(" ");
+                line = bufferedReader.readLine();
             }
             if (ArrayUtils.isNotEmpty(words)) {
                 for (int i = 0; i < words.length; i++) {
