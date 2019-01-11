@@ -7,8 +7,9 @@
 		<artifactId>woodencottage</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>database</artifactId>
-	<name>database</name>
+	<artifactId>springcloud</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>springcloud</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -16,13 +17,11 @@
 	</properties>
 
 	<dependencies>
-		<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
 		<dependency>
-			<groupId>com.google.guava</groupId>
-			<artifactId>guava</artifactId>
-			<version>27.0.1-jre</version>
+			<groupId>com.netflix.hystrix</groupId>
+			<artifactId>hystrix-core</artifactId>
+			<version>1.5.12</version>
 		</dependency>
-
 	</dependencies>
 
 	<build>
