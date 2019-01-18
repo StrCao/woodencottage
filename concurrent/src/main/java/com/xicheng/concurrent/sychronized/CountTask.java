@@ -3,6 +3,11 @@ package com.xicheng.concurrent.sychronized;
 import lombok.Getter;
 import lombok.Setter;
 
+/**
+ * @author xichengxml
+ * @date
+ * 对比synchronized和volatile
+ */
 public class CountTask implements Runnable {
 
     @Setter
