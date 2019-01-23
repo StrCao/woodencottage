@@ -81,7 +81,7 @@
 		</plugins>
 	</build>
 
-	<profiles>
+	<!--<profiles>
 		<profile>
 			<id>dev</id>
 			<properties>
@@ -100,6 +100,6 @@
 				<multi-env>online</multi-env>
 			</properties>
 		</profile>
-	</profiles>
+	</profiles>-->
 
 </project>
