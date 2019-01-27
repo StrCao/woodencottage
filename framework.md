@@ -15,4 +15,6 @@
     * hbase
     * mongo
     * mysql
-    * redis 
+    * redis
+6. bigdata
+    * hadoop

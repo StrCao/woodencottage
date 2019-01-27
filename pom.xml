@@ -28,6 +28,7 @@
 		<module>stream</module>
 		<module>framework</module>
 		<module>springcloud</module>
+		<module>bigdata</module>
 	</modules>
 	<properties>
 		<java.version>1.8</java.version>
