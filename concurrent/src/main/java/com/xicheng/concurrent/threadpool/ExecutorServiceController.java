@@ -1,7 +1,6 @@
-package com.xicheng.concurrent;
+package com.xicheng.concurrent.threadpool;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.*;
@@ -26,6 +25,7 @@ public class ExecutorServiceController {
 
         List<Future<ResponseMsg>> futures = new ArrayList<>();
         try {
+            // 对比invokeAll添加延时和不添加延时的区别，不添加延时会一致等待返回值
             futures = executorService.invokeAll(taskList, 4, TimeUnit.SECONDS);
             // futures = executorService.invokeAll(taskList);
         } catch (InterruptedException e) {
