@@ -26,3 +26,10 @@
 6. bigdata
     * hadoop
     * storm
+7. datastructure
+    * bitmap
+    * hashmap
+    * index
+    * linkedlist
+    * queue
+    * messagequeue
