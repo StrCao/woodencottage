@@ -15,5 +15,6 @@ public class SpringMvcConfig implements WebMvcConfigurer {
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
         registry.addViewController("el-menu").setViewName("el-menu");
+        registry.addViewController("icon").setViewName("icon");
     }
 }

@@ -7,12 +7,11 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-/*
+/**
  * @author xichengxml
  * @date 2019/1/2
  * @description
  */
-
 @RestController
 public class RequestController {
 
