@@ -20,9 +20,7 @@ public class LoginController {
     @ResponseBody
     public String login(String userName, HttpServletRequest request) {
         HttpSession httpSession = request.getSession(true);
-        if (httpSession.getAttribute(userName) != null) {
-            httpSession.setAttribute(userName, userName);
-        }
+        httpSession.setAttribute(userName, userName);
         AtomicInteger userCount = MySessionListener.userCount;
         return userName + "上线成功！当前在线人数： " + userCount;
     }
@@ -31,6 +29,7 @@ public class LoginController {
     @ResponseBody
     public String logout(String userName, HttpServletRequest request) {
         HttpSession httpSession = request.getSession(true);
+        httpSession.removeAttribute(userName);
         httpSession.invalidate();
         AtomicInteger userCount = MySessionListener.userCount;
         return userName + "下线成功！当前在线人数：" + userCount;
