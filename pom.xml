@@ -16,6 +16,7 @@
 	<description>译名：万木草堂</description>
 
 	<modules>
+		<!-- 以下内容为基础部分内容 -->
 		<module>datastructure</module>
 		<module>springboot</module>
 		<module>newfeature</module>
@@ -29,6 +30,8 @@
 		<module>framework</module>
 		<module>springcloud</module>
 		<module>bigdata</module>
+		<!-- 以下内容为博客内容 -->
+		<module>190125-interceptor</module>
 	</modules>
 	<properties>
 		<java.version>1.8</java.version>
