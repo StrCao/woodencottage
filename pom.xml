@@ -32,6 +32,8 @@
 		<module>bigdata</module>
 		<!-- 以下内容为博客内容 -->
 		<module>190125-interceptor</module>
+		<module>190125-filter</module>
+		<module>190125-listener</module>
 	</modules>
 	<properties>
 		<java.version>1.8</java.version>
