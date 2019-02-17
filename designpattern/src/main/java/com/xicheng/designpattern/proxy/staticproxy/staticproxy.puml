@@ -1,0 +1,18 @@
+@startuml
+
+class RealStar
+interface Star
+class Main
+
+Star <|-- ProxyStar
+Star <|-- RealStar
+
+class ProxyStar {
+    RealStar realStar;
+}
+
+class Main {
+    Star star;
+}
+
+@enduml

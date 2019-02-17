@@ -4,8 +4,9 @@ package com.xicheng.concurrent.lock;
  * @author xichengxml
  * @date 2018/12/24
  * @description
+ * 有一个更巧妙的实现方式，采用单线程分别来处理flag=1和flag=0的情况；所有的不同情况都可以采用单线程处理
  */
-public class DeadLock extends Thread{
+public class DeadLock extends Thread {
 
     private int flag = 0;
     private static final Object o1 = new Object();
