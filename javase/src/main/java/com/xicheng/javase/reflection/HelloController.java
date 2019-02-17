@@ -8,6 +8,7 @@ import java.lang.reflect.Proxy;
 /**
  * @author xichengxml
  * @date 2019/1/24 10:01
+ * 程序有问题无法执行，待修复
  */
 public class HelloController {
 
@@ -23,7 +24,6 @@ public class HelloController {
     @Test
     public void test02() throws Exception {
         Class<?> proxyClass = Proxy.getProxyClass(HelloService.class.getClassLoader(), new Class[]{HelloService.class});
-        Method[] methods = proxyClass.getMethods();
         Method sayHello = proxyClass.getDeclaredMethod("sayHello", String.class);
         System.out.println(sayHello);
         Object hello = sayHello.invoke(proxyClass.newInstance(), "name");

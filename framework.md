@@ -33,3 +33,6 @@
     * linkedlist
     * queue
     * messagequeue
+ 8. designpattern
+    * proxy
+       1) static proxy
