@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- 突破同源策略，取得json数据 -->
+    <script>
+        function addScriptTag(src) {
+            //在test3.html中创建一个script dom节点
+            var script = document.createElement('script');
+            //给dom节点设置type=text/javascript
+            script.setAttribute("type","text/javascript");
+            script.src = src;
+            document.body.appendChild(script);
+        }
+
+        window.onload = function () {
+            //文档加载完毕，执行addScriptTag方法
+            addScriptTag('http://localhost:8087/json/price2.json');
+        }
+
+        //定义了js方法，方法名showPrice，和json数据中方法名一致
+        function showPrice(data) {
+            alert(data);
+        };
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+</head>
+<body>
+    <script type="text/javascript">
+        function showPrice(data) {
+            alert(data);
+        }
+
+        $(function () {
+            $.ajax({
+                url:'http://localhost:8087/json/price2.json',//非同源json资源，json数据要封装到js方法的参数中
+                dataType:"jsonp",   //使用jsonp
+                jsonp:"showPrice",  //方法
+                success:function(data){
+                    alert(data);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

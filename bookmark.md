@@ -13,3 +13,5 @@
     1) https://blog.csdn.net/napoay/article/details/80171338
 2. java API操作Elasticsearch:
     1) http://blog.51cto.com/xpleaf/2096854
+3. 跨域：
+    1) https://segmentfault.com/a/1190000011145364

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试跨域</title>
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $.get("http://localhost:8087/json/price1.json");
+        });
+    </script>
+</head>
+<body>
+    <p>使用jquery通过get请求获取跨域数据，返回结果如下：</p>
+    <div id="message">
+        Access to XMLHttpRequest at 'http://localhost:8087/price.json' from origin 'http://localhost:8086' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+    </div>
+</body>
+</html>

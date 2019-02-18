@@ -35,6 +35,7 @@
 		<module>190125-filter</module>
 		<module>190125-listener</module>
 		<module>190215-mybatiscache</module>
+		<module>190218-crossorigin</module>
 	</modules>
 	<properties>
 		<java.version>1.8</java.version>
