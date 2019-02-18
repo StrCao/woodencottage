@@ -1,0 +1,1 @@
+elasticsearch权威指南：https://es.xiaoleilu.com/010_Intro/10_Installing_ES.html

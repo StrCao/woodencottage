@@ -9,3 +9,7 @@
 3. 监督学习算法：
     1) http://blog.jobbole.com/67616/
 ##### 190217
+1. java API获取Elasticsearch分词结果：
+    1) https://blog.csdn.net/napoay/article/details/80171338
+2. java API操作Elasticsearch:
+    1) http://blog.51cto.com/xpleaf/2096854
