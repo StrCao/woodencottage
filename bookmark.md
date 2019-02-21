@@ -15,3 +15,16 @@
     1) http://blog.51cto.com/xpleaf/2096854
 3. 跨域：
     1) https://segmentfault.com/a/1190000011145364
+4. 策略设计模式：
+    1) https://www.cnblogs.com/java-my-life/archive/2012/05/10/2491891.html
+    2) https://blog.csdn.net/guolin_blog/article/details/8986285
+#### 190220
+1. dns:
+    1) http://www.ruanyifeng.com/blog/2016/06/dns.html
+2. 正向代理、反向代理、复杂均衡：
+    1) https://segmentfault.com/a/1190000012549192
+3. token:
+    1) https://segmentfault.com/a/1190000009122246
+#### 1902221
+1. kafka:
+    1) https://www.infoq.cn/article/kafka-analysis-part-1
