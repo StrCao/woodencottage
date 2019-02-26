@@ -28,3 +28,16 @@
 #### 1902221
 1. kafka:
     1) https://www.infoq.cn/article/kafka-analysis-part-1
+2. https加密原理：
+    1) https://www.jianshu.com/p/596848bcf1f4
+#### 190222
+1. echarts:
+    1) https://zhuanlan.zhihu.com/p/28987666
+2. markdown画流程图:
+    1) https://support.typora.io/Draw-Diagrams-With-Markdown/
+    2) https://www.cnblogs.com/dao0/p/4489837.html
+#### 190226
+1. 有赞搜索引擎实践：
+    1) https://tech.youzan.com/search-engine1/
+2. es搜索引擎原理：
+    1) https://segmentfault.com/a/1190000015256970
