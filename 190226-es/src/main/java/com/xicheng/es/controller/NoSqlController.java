@@ -22,6 +22,7 @@ import java.util.Map;
  * @author xichengxml
  * @date 2019/3/1 9:41
  * 测试es的NoSQL特性，在同一个索引库、同一个表中插入不同结构化数据
+ * 结论：es具有NOSQL特性，支持不同结构数据
  */
 @Controller
 public class NoSqlController {
