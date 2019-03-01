@@ -9,3 +9,5 @@
 1. 吴恩达的机器学习课程：http://open.163.com/movie/2008/1/M/C/M6SGF6VB4_M6SGHFBMC.html
 2. google tenserflow框架：https://developers.google.cn/machine-learning/crash-course/ml-intro
 3. 一篇好博文：https://36kr.com/p/5109465.html
+##### 架构师
+1. 阿里技术主管必备技能：https://mp.weixin.qq.com/s/0LVj1IcWMWAuUeY6U7r4hg

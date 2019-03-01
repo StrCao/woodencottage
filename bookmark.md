@@ -21,7 +21,7 @@
 #### 190220
 1. dns:
     1) http://www.ruanyifeng.com/blog/2016/06/dns.html
-2. 正向代理、反向代理、复杂均衡：
+2. 正向代理、反向代理、负载均衡：
     1) https://segmentfault.com/a/1190000012549192
 3. token:
     1) https://segmentfault.com/a/1190000009122246
@@ -41,3 +41,6 @@
     1) https://tech.youzan.com/search-engine1/
 2. es搜索引擎原理：
     1) https://segmentfault.com/a/1190000015256970
+#### 190227
+1. 构建企业级的搜索引擎：
+    1) https://www.infoq.cn/article/build-enterprise-search-scenarios-using-elasticsearch
