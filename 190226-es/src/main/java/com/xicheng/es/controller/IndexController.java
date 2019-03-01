@@ -16,6 +16,7 @@ import java.util.Map;
  * @author xichengxml
  * @date 2019/2/27 14:42
  * 测试es6.2以上不支持单个索引下多个type
+ * 结论：es6.2以上不支持多type
  */
 @Controller
 public class IndexController {
