@@ -7,7 +7,7 @@ import java.net.Socket;
 /**
  * 生成数据
  */
-public class WordCountServer {
+public class SocketWordCountServer {
 
     public static void main(String[] args) throws Exception {
         ServerSocket serverSocket = new ServerSocket(9000);
