@@ -25,4 +25,10 @@ public class PublishServiceImpl implements PublishService {
         System.out.println("message publishing...");
         jedis.publish(CHANNEL, message);
     }
+
+    @Override
+    public void publish(String channel, String message) {
+        Jedis jedis = jedisPool.getResource();
+        jedis.publish(channel, message);
+    }
 }

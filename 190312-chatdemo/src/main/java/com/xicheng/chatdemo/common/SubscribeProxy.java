@@ -33,4 +33,13 @@ public class SubscribeProxy {
         jedis.subscribe(subscribeService, CHANNEL);
     }
 
+    /**
+     * 订阅固定的channel号
+     * @param channel
+     */
+    public void init(String channel) {
+        Jedis jedis = jedisPool.getResource();
+        jedis.subscribe(subscribeService, channel);
+    }
+
 }

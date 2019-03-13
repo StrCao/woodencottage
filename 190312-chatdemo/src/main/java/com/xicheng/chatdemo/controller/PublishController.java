@@ -16,10 +16,17 @@ public class PublishController {
     @Autowired
     private PublishService publishService;
 
-    @RequestMapping("/publish")
+    @RequestMapping("/pub01")
     @ResponseBody
-    public String publish() {
-        publishService.publish("message");
+    public String pub01() {
+        publishService.publish("mychannel01", "message01");
+        return "success";
+    }
+
+    @RequestMapping("/pub02")
+    @ResponseBody
+    public String pub02() {
+        publishService.publish("mychannel02", "message02");
         return "success";
     }
 }

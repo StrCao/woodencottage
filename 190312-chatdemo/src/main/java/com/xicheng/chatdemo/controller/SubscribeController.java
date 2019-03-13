@@ -16,10 +16,17 @@ public class SubscribeController {
     @Autowired
     private SubscribeProxy subscribeProxy;
 
-    @RequestMapping("/")
+    @RequestMapping("/sub01")
     @ResponseBody
-    public String init() {
-        subscribeProxy.init();
+    public String client01() {
+        subscribeProxy.init("mychannel01");
+        return "success";
+    }
+
+    @RequestMapping("/sub02")
+    @ResponseBody
+    public String client02() {
+        subscribeProxy.init("mychannel02");
         return "success";
     }
 }

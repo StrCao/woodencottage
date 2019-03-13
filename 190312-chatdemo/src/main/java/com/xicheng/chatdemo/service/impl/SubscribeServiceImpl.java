@@ -22,7 +22,9 @@ public class SubscribeServiceImpl extends JedisPubSub {
     @Override
     public void onMessage(String channel, String message) {
         System.out.println("message sending...");
-        simpMessagingTemplate.convertAndSend("/topic/sub", message);
+        // 获取用户编号
+        String code = channel.substring(channel.length() - 2);
+        simpMessagingTemplate.convertAndSend("/topic/sub" + code, message);
     }
 
     @Override

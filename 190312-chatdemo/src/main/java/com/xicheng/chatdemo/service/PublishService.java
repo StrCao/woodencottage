@@ -11,4 +11,11 @@ public interface PublishService {
      * @param message 消息内容
      */
     void publish(String message);
+
+    /**
+     * 向指定的channel发送消息
+     * @param message
+     * @param channel
+     */
+    void publish(String channel, String message);
 }
