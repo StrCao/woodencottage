@@ -36,7 +36,9 @@
 		<module>190125-listener</module>
 		<module>190215-mybatiscache</module>
 		<module>190218-crossorigin</module>
+		<module>190218-staticresources</module>
 		<module>190220-token</module>
+		<module>190226-es</module>
 		<module>190304-flink</module>
         <module>190307-validator</module>
 		<module>190312-redis</module>
