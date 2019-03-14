@@ -25,11 +25,17 @@ public class Main {
      * @param flag
      */
     private static void magicCode(Father father, boolean flag) {
+        int count = 0;
         for (flag = true; father instanceof Son; father = ((Son) father).mfather) {
-            System.out.println("loop times:" + 1);
+            count++;
         }
+        System.out.println("loop times:" + count);
         System.out.println(flag);
-        System.out.println(father.getClass());
+        if (father == null) {
+            System.out.println("null");
+        } else {
+            System.out.println(father.getClass());
+        }
     }
 
     static class Father {

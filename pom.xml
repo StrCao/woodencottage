@@ -43,6 +43,7 @@
         <module>190307-validator</module>
 		<module>190312-redis</module>
 		<module>190312-chatdemo</module>
+		<module>190314-sentinel</module>
     </modules>
 	<properties>
 		<java.version>1.8</java.version>

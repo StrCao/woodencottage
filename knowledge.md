@@ -13,3 +13,5 @@
 1. 阿里技术主管必备技能：https://mp.weixin.qq.com/s/0LVj1IcWMWAuUeY6U7r4hg
 ##### 数据结构算法
 1. 数据结构: https://www.youtube.com/watch?v=Bc3UUHocxt0&list=PLpPXw4zFa0uKKhaSz87IowJnOTzh9tiBk&index=5
+##### Linux
+1. The Linux Command Line: http://billie66.github.io/TLCL/book/
