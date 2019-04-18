@@ -44,6 +44,8 @@
 		<module>190312-redis</module>
 		<module>190312-chatdemo</module>
 		<module>190314-sentinel</module>
+		<module>190318-lru</module>
+		<module>190418-mockito</module>
     </modules>
 	<properties>
 		<java.version>1.8</java.version>
