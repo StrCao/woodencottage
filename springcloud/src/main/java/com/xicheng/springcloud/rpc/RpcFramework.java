@@ -14,11 +14,15 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 /**
+ * 框架核心代码
  * @author xichengxml
  * @date 2019/1/11 14:52
  */
 public class RpcFramework {
 
+    /**
+     * 线程池对象
+     */
     private static final ThreadPoolExecutor EXECUTOR = new ThreadPoolExecutor(2, 5, 100, TimeUnit.SECONDS, new ArrayBlockingQueue<Runnable>(100));
 
     /**
@@ -119,6 +123,7 @@ public class RpcFramework {
                     socket = new Socket(host, port);
                     output = new ObjectOutputStream(socket.getOutputStream());
                     output.writeUTF(method.getName());
+                    // System.out.println(method.getName());
                     output.writeObject(method.getParameterTypes());
                     output.writeObject(parameters);
                     Thread.sleep(50);

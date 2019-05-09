@@ -1,6 +1,7 @@
 package com.xicheng.springcloud.rpc;
 
 /**
+ * 暴露服务
  * @author xichengxml
  * @date 2019/1/24 17:50
  */
